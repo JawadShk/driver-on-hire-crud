@@ -188,10 +188,10 @@ const DriverTable = () => {
 
           <Col md={10}>
             <Row className="align-items-center">
-              <Col lg={6}>
+              <Col xs={6}>
                 <h1>Drivers List</h1>
               </Col>
-              <Col lg={6} className="text-end">
+              <Col xs={6} className="text-end">
                 <Button
                   variant="success"
                   onClick={handleOpenAddModal}
@@ -205,7 +205,7 @@ const DriverTable = () => {
                 <Table responsive="md">
                   <thead>
                     <tr>
-                      <th>Driver ID</th>
+                      <th>ID</th>
                       <th>Name</th>
                       <th>Mobile</th>
                       <th>Photo</th>

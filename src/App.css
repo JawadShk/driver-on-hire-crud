@@ -33,3 +33,12 @@ th{ background: #ffce2863 !important; border: 1px solid #2c2e35; font-weight: 70
 .modal-header{ background: #ffce2863 !important; font-weight: 700; }
 
 .modal-body{ background-color: #ffce280a; }
+
+@media (max-width: 767px){
+  th{font-size: 14px;}
+  td{font-size: 12px;}
+  button{font-size: 12px !important; padding: 5px !important;}
+  label{font-size: 14px;}
+  .form-control{font-size: 12px;}
+  .form_group{margin-bottom: 10px;}
+}
