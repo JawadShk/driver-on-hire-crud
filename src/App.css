@@ -16,11 +16,7 @@ form { margin-bottom: 10px;}
 
 input, select { margin-right: 10px; }
 
-.btn-dark { color: #fff; background-color: #343a40; border-color: #343a40; }
-
-.btn-outline-dark { color: #343a40; border-color: #343a40; background-color: white; }
-
-.btn-warning { color: #212529; background-color: #ffc107; border-color: #ffc107; }
+.btn-outline-dark {  background-color: white; }
 
 .popup { position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%); background-color: white; border: 1px solid black; padding: 20px; z-index: 1000; }
 
