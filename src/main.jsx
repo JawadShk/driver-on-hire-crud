@@ -9,12 +9,8 @@ import { Col, Row } from "react-bootstrap";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <Container>
-      <Row>
-        <Col>
+
           <App />
-        </Col>
-      </Row>
-    </Container>
+
   </StrictMode>
 );
