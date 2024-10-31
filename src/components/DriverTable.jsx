@@ -116,7 +116,6 @@ const DriverTable = () => {
     setImageFile(e.target.files[0]);
   };
 
-  // Validation functions
   const validateForm = () => {
     const errors = {};
     if (formData.first_name.length < 3 || formData.first_name.length > 10) {
@@ -133,13 +132,13 @@ const DriverTable = () => {
       errors.car_type = "At least one car type must be selected.";
     }
     setFormErrors(errors);
-    return Object.keys(errors).length === 0; // Return true if no errors
+    return Object.keys(errors).length === 0; 
   };
 
   const handleFormSubmit = async (e) => {
     e.preventDefault();
     
-    if (!validateForm()) return; // Validate before submission
+    if (!validateForm()) return; 
 
     const submitData = new FormData();
     submitData.append("first_name", formData.first_name);
